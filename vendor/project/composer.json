@@ -1,0 +1,16 @@
+{
+    "name": "wilkins/composer-file-loader",
+    "type": "function",
+    "description": "Load composer file",
+    "autoload": {
+        "psr-4": {
+            "": "NoNameSpace/",
+            "Magic\\Methods\\": "Magic/",
+            "SayHello\\": "src/",
+            "CompanyName\\PackageName\\": [
+                "packages/package1/src/",
+                "packages/package2/src/"
+            ]
+        }
+    }
+}
